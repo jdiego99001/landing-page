@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "MiRobotoLocal";
+    src: url("fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format('truetype');
+}
+
+body {
+    font-family: 'MiRobotoLocal', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+}
+
+h3 {
+    margin-top: 17px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    gap: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.secondary-text {
+    font-size: 23px;
+    color: #E5E7EB;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+}
+
+.gray-square {
+    display: flex;
+    background-color: rgb(108, 113, 126);
+    height: 300px;
+    width: 650px;
+    padding: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    height: 250px;
+    width: 600px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px / 4px; 
+    box-sizing: content-box;
+    margin-top: 0%;
+    
+}
+
+.text-into-square {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
