@@ -100,7 +100,7 @@ button {
 
 .second-section {
     padding-top: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 h2 {
@@ -139,4 +139,30 @@ h2 {
 .text-under-square {
     padding-top: 0%;
     margin-top: 3%;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    color: rgb(63, 63, 63);
+}
+
+.text-of-thor {
+    height: 140px;
+    width: 1000px;
+    font-weight: 300;
+    font-size: 45px;
+    
+}
+
+.right-text {
+    width: 950px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+
 }
